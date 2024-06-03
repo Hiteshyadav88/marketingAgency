@@ -49,11 +49,16 @@ button {
 }
 .upper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 80%;
+    gap:3rem;
+    margin:auto
 }
 .wedo{
+    width: 80%;
     color: red;
+    margin:auto
 }
 
 @media (max-width: 768px) {
@@ -132,6 +137,10 @@ button {
       margin-bottom: 10px;
   }
 
+  .pera{
+
+   width: 50%;
+  }
   .card p {
       color: rgb(102, 102, 102);
       font-size: 18px;
